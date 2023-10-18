@@ -1,0 +1,10 @@
+div {
+    border: 1px solid red;
+}
+.pages {
+    font-weight: bold;
+}
+.span {
+    color: green;
+    font-style: italic;
+}

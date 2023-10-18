@@ -1,0 +1,48 @@
+h1 {
+    color: blue;
+    background-color: white;
+
+}
+p {
+    font-size: 18px;
+}
+.section1 {
+    background-color: yellow;
+}
+.section2 {
+     border: 1px solid rgb(128, 128, 128);
+    background-color: white;
+}
+nav ul {
+    margin: 20px;
+}
+nav a {
+    color: red;
+    background-color: white;
+}
+button {
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+button:hover {
+    background-color: #123456;
+}
+footer p {
+    background-color: white;
+}
+* {
+    margin-inside: 4px;
+}
+.fond {
+    /* The image used */
+    background-image: url("/Professor_Oaks_Laboratory.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

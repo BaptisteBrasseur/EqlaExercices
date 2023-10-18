@@ -1,0 +1,27 @@
+nav a:visited {
+    color: darkred;
+}
+/* J'ai utilisé la timing function linear sur la pseudo-classe :hover pour faire une transition de couleur de texte progressive lorsqu'on survole les liens */
+nav a {
+    transition-property: color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+nav a:hover {
+    color: darkgoldenrod;
+}
+/* J'ai utilisé la timing function linear sur la pseudo-classe :active pour faire une transition de couleur de fond rapide lorsqu'on clique sur les liens */
+.html {
+    transition-property: background-color;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+}
+.html:active {
+    background-color: #666666;
+}
+nav a:focus {
+    text-decoration: none;
+}
+img {
+    width: 100px;
+}

@@ -1,0 +1,47 @@
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+a {
+    color: green;
+    font-size: 1.5em;
+}
+a:hover {
+    color: blue;
+    background-color: yellow;
+    transition-property: color;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+a:visited {
+    color: red;
+}
+img {
+    width: 80%;
+    border: #666666 1px solid;
+}
+main {
+    display: flex;
+}
+aside {
+    flex-shrink: 1;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    margin: 5px;
+}
+article {
+    display: flex;
+    flex-grow: 4;
+    margin: 5px;
+}
+footer {
+    align-self: flex-end;
+    font-size: 1.5em;
+    color: lightblue;
+    background-color: darkgoldenrod;
+    border: #666666 4px solid;
+    margin: 40px;
+    padding: 20px;
+}

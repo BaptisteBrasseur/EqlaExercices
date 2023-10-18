@@ -1,0 +1,19 @@
+#arcko {
+    max-width: 50%;
+}
+.element {
+     background-image: url('795px-Salamèche-RFVF.png');
+     background-size: cover;
+ }
+@media screen and (max-width: 768px) {
+    #tajiri {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media screen and (min-width: 900px) {
+    #tajiri {
+        max-width: 50%;
+        height: auto;
+    }
+}

@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Arial, sans-serif;
+}
+* {
+    margin-inside: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+nav :hover {
+    color: blue;
+}
+p {
+    font-size: 18px;
+}
+
+.container>* {
+    margin: 0 10px;
+    flex: 1;
+    column-width: 8em;
+}
+
+#normal {
+    color: #999999;
+}
+#vol {
+    color: deepskyblue;
+}
+#ténèbres {
+    color: black;
+}
+#spectre {
+    color: indigo;
+}
+#sol {
+    color: chocolate;
+}
+#roche {
+    color: saddlebrown;
+}
+#psy {
+    color: hotpink;
+}
+#poison {
+    color: darkmagenta;
+}
+#plante {
+    color: forestgreen;
+}
+#insecte {
+    color: darkolivegreen;
+}
+#glace {
+    color: darkcyan;
+}
+#fée {
+    color: violet;
+}
+#feu {
+    color: red;
+}
+#electrik {
+    color: gold;
+}
+#eau {
+    color: blue;
+}
+#dragon {
+    color: darkslateblue;
+}
+#combat {
+    color: orange;
+}
+#acier {
+    color: dimgray;
+}
+img {
+    width: 1280px;
+    border: 4px black solid;
+    padding: 20px;
+    margin-left: 40px;
+    float: right;
+}

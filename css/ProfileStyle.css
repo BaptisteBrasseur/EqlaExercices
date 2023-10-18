@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    margin: 0;
+}
+header {
+    background-color: #999999;
+    border-bottom: 4px solid darkgoldenrod;
+}
+main {
+    margin: 10px;
+    padding: 10px;
+}
+img {
+    width: 400px;
+    position: relative;
+    top: 10px;
+    left: 1040px;
+    border: black 1px solid;
+}
+footer {
+    display: inline-block;
+    background-color: darkcyan;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+}
