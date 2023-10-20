@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr-BE"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice 10-8</title>
+</head>
+<body>
+<h1>Partie 1 - Simple formulaire</h1>
+<form action="http://zamboyle.synology.me:2727/forms/demos/showvars.php" method="POST">
+  <label for="nom">Nom :</label>
+  <input type="text" id="nom" name="nom" aria-required="true" required> *<br><br>
+  <label for="prenom">Prénom :</label>
+  <input type="text" id="prenom" name="prenom" aria-required="true" required> *<br><br>
+  <label for="email">E-mail :</label>
+  <input type="email" id="email" name="email" aria-required="true" required> *<br><br>
+  <label for="age">Age :</label><br>
+  <input type="number" id="age" name="age" min="8" max="99" aria-required="true" required> *<br>
+  <label for="commentaires">Commentaires :</label><br>
+  <textarea id="commentaires" name="commentaires"  rows="10" cols="50"></textarea><br>
+  <label for="newsletter">Newsletter :</label><br>
+  <input type="checkbox" id="newsletter" name="newsletter" checked> Je m'abonne<br>
+  <label for="html">Formation :</label><br>
+  <label for="css"></label>
+  <input type="checkbox" id="html" name="formation[]" value="html"> html<br>
+  <input type="checkbox" id="css" name="formation[]" value="css"> css<br>
+  <label for="homme">Genre :</label><br>
+  <label for="femme"></label>
+  <input type="radio" id="homme" name="genre" value="masculin"> Homme<br>
+  <input type="radio" id="femme" name="genre" value="feminin"> Femme<br><br>
+  <label for="langue">Langue:</label><br>
+  <select id="langue" name="langue">
+    <option value="Français" selected>Français</option>
+    <option value="Anglais">Anglais</option>
+    <option value="Allemand">Allemand</option>
+    <option value="Espagnol">Espagnol</option>
+    <option value="Italien">Italien</option>
+    <option value="Roumain">Roumain</option>
+  </select><br>
+  <br>
+  <input type="submit" value="Envoyer">
+</form>
+</body>
+</html>
