@@ -1,0 +1,35 @@
+Début
+CHAINE nom
+AFFICHER "Veuillez entrer votre nom "
+LIRE nom 
+AFFICHER "Bonjour ", nom, ", enchanté!"
+<br>
+ENTIER année
+ENTIER age
+AFFICHER "Veuillez entrer votre année de naissance "
+LIRE année
+age = 2023-année
+AFFICHER "Vous avez ", age, " ans."
+<br>
+RATIONNEL celsius
+RATIONNEL fahrenheit
+AFFICHER "Veuillez entrer la température en Celsius "
+LIRE celsius
+fahrenheit = celsius*1.8000+32.00
+AFFICHER "Il fait ", fahrenheit, "°F."
+<br>
+CHAINE nom1
+CHAINE nom2
+nom1 "Aerith"
+nom2 "Tifa"
+AFFICHER "C'est un honneur de vous rencontrer ", nom1, " et ", nom2, "!"
+<br>
+ENTIER nombre1
+ENTIER nombre2
+ENTIER somme
+AFFICHER "Veuillez saisir deux nombres entiers "
+LIRE nombre1
+LIRE nombre2
+somme = nombre1 + nombre2
+AFFICHER "La somme de ", nombre1, " et de ", nombre2, " est ", somme
+Fin
