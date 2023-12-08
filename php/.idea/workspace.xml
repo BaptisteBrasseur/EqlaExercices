@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8733ce67-5b67-4e88-a73d-af085436032b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../db/exercice10.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice11.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice12.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice13.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice4.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice5.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice6.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice7.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice8.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice9.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles10.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structure de contrôle conditionnelle/ExerciceBonus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/Exercice10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/Exercice10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/Presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/Presentation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../myhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structure de contrôle conditionnelle/Exercices.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structure de contrôle conditionnelle/Exercices.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2YcS71bs896Bm8oha8BdFZ8a2WS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vente/mesdepots/EqlaExercices/db/exercice3.sql&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8733ce67-5b67-4e88-a73d-af085436032b" name="Changes" comment="" />
+      <created>1700823203886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700823203886</updated>
+      <workItem from="1700823204934" duration="9583000" />
+      <workItem from="1701331847044" duration="9518000" />
+      <workItem from="1701425600411" duration="93000" />
+      <workItem from="1701432189493" duration="9836000" />
+      <workItem from="1701871365841" duration="2716000" />
+      <workItem from="1702023028096" duration="594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

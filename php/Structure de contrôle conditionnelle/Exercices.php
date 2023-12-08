@@ -1,10 +1,12 @@
 <?php
+//exercice 1
 echo "Veuillez saisir un nombre ";
 $nombre = fgets(STDIN);
 if ($nombre > 0) {
     echo "Ce nombre est positif.
     ";
 }
+//exercice 2
 echo "Quel est votre âge? ";
 $age = fgets(STDIN);
 if ($age >= 18) {
@@ -14,6 +16,7 @@ if ($age >= 18) {
     echo "Vous êtes mineur.
     ";
 }
+//exercice 3
 echo "Veuillez saisir un nombre ";
 $nombre2 = fgets(STDIN);
 if ($nombre2 > 0) {
@@ -26,6 +29,7 @@ if ($nombre2 > 0) {
     echo "Zéro
     ";
 }
+//exercice 4
 echo "Veuillez saisir un nombre entre 0 et 100 ";
 $nombre3 = fgets(STDIN);
 if ($nombre3 >= 90) {
@@ -41,6 +45,7 @@ if ($nombre3 >= 90) {
     echo "À améliorer
     ";
 }
+//exercice 5
 echo "Veuillez saisir un jour de la semaine par son nombre (1 pour lundi, 2 pour mardi, ...) ";
 $jour = fgets(STDIN);
 $jour = intval($jour);
@@ -77,6 +82,7 @@ switch ($jour) {
         echo "C'est un autre jour de la semaine.
         ";
 }
+//exercice 6
 echo "Veuillez saisir un mois de l'année par son nombre (1 pour janvier, 2 pour février, ...) ";
 $mois = fgets(STDIN);
 $mois = intval($mois);
@@ -106,31 +112,33 @@ switch ($mois) {
         echo "C'est un autre mois de l'année.
         ";
 }
+//exercice 7
 echo "Veuillez saisir deux nombres. ";
 $dividende = fgets(STDIN);
 $diviseur = fgets(STDIN);
-$quotient = $dividende / $diviseur;
-if ($quotient == 0 || 1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9 || 10 || 11 || 12) {
+if ($dividende%$diviseur == 0) {
     echo "Le premier nombre est divisible par le second.
     ";
 } else {
     echo "Le premier nombre n'est pas divisible par le second.
     ";
 }
+//exercice 8
 echo "Veuillez saisir trois nombres ";
 $first = fgets(STDIN);
 $second = fgets(STDIN);
 $third = fgets(STDIN);
 if ($first > $second && $first > $third) {
     echo "Le plus grand de ces trois nombres est ", $first, ".";
-} elseif ($first < $second && $second > $third) {
+} elseif ($second > $first && $second > $third) {
     echo "Le plus grand de ces trois nombres est ", $second, ".";
-} elseif ($third > $second && $first < $third) {
+} elseif ($third > $second && $third > $first) {
     echo "Le plus grand de ces trois nombres est ", $third, ".";
 } else {
     echo "Aucun nombre n'est plus grand que les autres.
     ";
 }
+//exercice 9a
 echo "Veuillez saisir un nombre ";
 $nombre4 = fgets(STDIN);
 if ($nombre4 > 0) {
@@ -149,9 +157,10 @@ switch ($nombre4) {
         echo "Négatif
         ";
 }
+//exercice 9b
 echo "Veuillez saisir un nombre entre 0 et 100 ";
 $nombre5 = fgets(STDIN);
-if ($nombre5 > 90) {
+if ($nombre5 >= 90) {
     $nombre5 = 90;
 }
 if ($nombre5 >= 80 && $nombre5 < 90) {
@@ -177,6 +186,7 @@ switch ($nombre5) {
     echo "À améliorer
     ";
 }
+//exercice 9c
 echo "Veuillez saisir deux nombres ";
 $divise = fgets(STDIN);
 $div = fgets(STDIN);
@@ -188,6 +198,7 @@ if (is_integer($reste)) {
     echo "Le premier nombre n'est pas divisible par le second.
     ";
 }
+//exercice 9d
 echo "Veuillez saisir trois nombres ";
 $solo = fgets(STDIN);
 $duo = fgets(STDIN);
@@ -213,16 +224,16 @@ if ($duo > $trio) {
 if ($uno + $dos == 2) {
     echo "Le plus grand de ces trois nombres est ", $solo, ".";
 }
-if ($dos + $tres == -2) {
+elseif ($dos + $tres == -2) {
     echo "Le plus grand de ces trois nombres est ", $trio, ".";
 }
-if ($tres + $uno == 2) {
+elseif ($tres + $uno == 2) {
     echo "Le plus grand de ces trois nombres est ", $uno, ".";
 }
-if ($dos + $uno == 0) {
+elseif ($dos + $uno == 0) {
     echo "Le plus grand de ces trois nombres est ", $duo, ".";
 }
-if ($tres + $uno == -2) {
+elseif ($tres + $uno == -2) {
     echo "Le plus grand de ces trois nombres est ", $trio, ".";
 } else {
     echo "Aucun nombre n'est plus grand que les autres.
