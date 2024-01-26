@@ -1,0 +1,2 @@
+use Blindcode;
+SELECT * FROM Eleve WHERE cp BETWEEN 1000 AND 1999;

@@ -1,0 +1,5 @@
+Service traiteur pour les fêtes
+choix entre Noël - Pâques - Halloween
+ex: dinde pour Noël, lapin pour Pâques,..
+propose entrée, plat, dessert
+confirme commande et prix

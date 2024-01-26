@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr-BE" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Abonnement à la Newsletter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" rel="stylesheet">
+</head>
+<body>
+<h1>Abonnement à la Newsletter</h1>
+<form action="http://zamboyle.synology.me:2727/forms/demos/showvars.php" method="POST">
+    <h2>Vos coordonnées</h2>
+    <p>
+        <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom[]" aria-required="true" required autofocus> *
+        </p>
+    <p>
+    <label for="prenom">Prénom :</label>
+    <input type="text" id="prenom" name="prenom[]" aria-required="true" required> *
+    </p>
+    <p>
+    <label for="email">E-mail (exemple: bulm@brief.corp):</label>
+    <input type="email" id="email" name="email[]" aria-required="true" required> *
+    </p>
+    <p>
+    <label for="pays">Pays:</label>
+    <select id="pays" name="pays[]">
+        <optgroup label="Europe">
+        <option value="Belgique" selected>Belgique</option>
+        <option value="France">France</option>
+        <option value="Allemagne">Allemagne</option>
+        </optgroup>
+        <optgroup label="Amérique">
+        <option value="Mexique">Mexique</option>
+        <option value="Canada">Canada</option>
+        </optgroup>
+        <optgroup label="Asie">
+        <option value="Japon">Japon</option>
+        <option value="Chine">Chine</option>
+        </optgroup>
+    </select>
+    </p>
+    <p>
+    <label for="naissance">Date de naissance (exemple: 15-7-1987) :</label>
+    <input type="date" id="naissance" name="naissance[]" aria-required="true" required> *
+    </p>
+    <p>
+    <label for="identite">Copie de carte d’identité :</label>
+    <input type="file" id="identite" name="carte identite" aria-required="true" required>
+    </p>
+    <h2>Thèmes souhaités</h2>
+    <p>
+    <label for="sport">Thèmes souhaités :</label>
+    <label for="cuisine"></label>
+    <label for="voyage"></label>
+    <label for="relaxation"></label>
+    <input type="checkbox" id="sport" name="theme[]" value="sport"> Sport
+    <input type="checkbox" id="cuisine" name="theme[]" value="cuisine"> Cuisine
+    <input type="checkbox" id="voyage" name="theme[]" value="voyage"> Voyage
+    <input type="checkbox" id="relaxation" name="theme[]" value="relaxation"> Relaxation
+    </p>
+    <h2>Type d’abonnement souhaité</h2>
+    <fieldset>
+        <legend>Type d’abonnement souhaité :</legend>
+        <input type="radio" id="hebdomadaire" name="newsletter[]" value="hebdomadaire">
+        <label for="hebdomadaire">Newsletter hebdomadaire</label><br />
+        <input type="radio" id="mensuel" name="newsletter[]" value="mensuel">
+        <label for="mensuel">Newsletter mensuelle</label><br />
+        <input type="radio" id="trimestriel" name="newsletter[]" value="trimestriel">
+        <label for="trimestriel">Newsletter trimestrielle</label>
+    </fieldset>
+    <h2>Modalités de réception</h2>
+    <p>
+        <label for="duree">Durée de l'abonnement en mois (3 à 12) :</label>
+        <input type="number" id="duree" name="duree abonnement[]" min="3" max="12" aria-required="true" required> *
+    </p>
+    <p>
+        <label for="heure">Heure de réception souhaitée :</label>
+        <input type="time" id="heure" name="heure de réception[]" aria-required="true" required> *
+    </p>
+    <p>
+        <label for="importance">Degré d'importance (0 à 100 par tranches de 10) :</label>
+        <input type="range" id="importance" name="degre importance" min="0" max="100" step="10" />
+    </p>
+    <input type="submit" value="Je m’abonne">
+</form>
+</body>
+</html>

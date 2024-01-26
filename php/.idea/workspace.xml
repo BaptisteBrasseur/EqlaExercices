@@ -5,37 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8733ce67-5b67-4e88-a73d-af085436032b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../db/exercice10.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/exercice11.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/exercice12.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/exercice13.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/exercice2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/exercice3.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/exercice4.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/exercice5.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/exercice6.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/exercice7.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/exercice8.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/exercice9.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boucles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boucles10.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boucles2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boucles3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boucles4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boucles5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boucles6.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boucles7.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boucles8.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boucles9.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structure de contrôle conditionnelle/ExerciceBonus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice22.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice23.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice24.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice25.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice26.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/exercice27.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles/Boucles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles/Boucles10.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles/Boucles2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles/Boucles3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles/Boucles4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles/Boucles5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles/Boucles6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles/Boucles7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles/Boucles8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles/Boucles9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boucles/ExerciceGroupe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Paramètres/parametres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Paramètres/typage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brouillon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_db/exercice25-5.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/Contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap/Exercice10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/Exercice10.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap/Presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/Presentation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/exercice10.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../db/exercice10.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/exercice11.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../db/exercice11.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/exercice12.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../db/exercice12.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/exercice13.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../db/exercice13.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/exercice2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../db/exercice2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/exercice3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../db/exercice3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/exercice4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../db/exercice4.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/exercice5.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../db/exercice5.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/exercice6.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../db/exercice6.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/exercice7.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../db/exercice7.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/exercice8.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../db/exercice8.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/exercice9.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../db/exercice9.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../myhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structure de contrôle conditionnelle/Exercices.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structure de contrôle conditionnelle/Exercices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boucles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boucles10.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boucles2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boucles3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boucles4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boucles5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boucles6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boucles7.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boucles8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boucles9.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExerciceGroupe.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,24 +74,35 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2YcS71bs896Bm8oha8BdFZ8a2WS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vente/mesdepots/EqlaExercices/db/exercice3.sql&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/vente/mesdepots/EqlaExercices/php/Paramètres",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PHP"
+    ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,10 +117,25 @@
       <workItem from="1701432189493" duration="9836000" />
       <workItem from="1701871365841" duration="2716000" />
       <workItem from="1702023028096" duration="594000" />
+      <workItem from="1702649547380" duration="128000" />
+      <workItem from="1702649695826" duration="2735000" />
+      <workItem from="1703061454205" duration="14045000" />
+      <workItem from="1703146243251" duration="6549000" />
+      <workItem from="1703232227381" duration="216000" />
+      <workItem from="1703232446335" duration="5868000" />
+      <workItem from="1703242652215" duration="135000" />
+      <workItem from="1703246870217" duration="5099000" />
+      <workItem from="1704891186028" duration="3332000" />
+      <workItem from="1704960608953" duration="9754000" />
+      <workItem from="1705047165911" duration="115000" />
+      <workItem from="1705047283643" duration="5103000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
