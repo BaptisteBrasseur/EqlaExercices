@@ -18,11 +18,11 @@ CREATE TABLE livre
     annee_publication SMALLINT UNSIGNED NOT NULL,
     pages SMALLINT UNSIGNED NOT NULL,
     exemplaires SMALLINT UNSIGNED,
-    auteur_id INT NOT NULL,
+    auteur_id INT Unsigned NOT NULL,
     CONSTRAINT fk_auteur_id FOREIGN KEY (auteur_id) REFERENCES auteur(id),
-    theme_id INT NOT NULL,
+    theme_id INT Unsigned NOT NULL,
     CONSTRAINT fk_theme_id FOREIGN KEY (theme_id) REFERENCES theme(id),
-    lecteur_id INT NULL,
+    lecteur_id INT Unsigned NOT NULL,
     CONSTRAINT fk_lecteur_id FOREIGN KEY (lecteur_id) REFERENCES lecteur(id)
 );
 CREATE TABLE theme
@@ -43,9 +43,9 @@ CREATE TABLE emprunt
     date_debut date NOT NULL,
     date_fin date NOT NULL,
     is_rendu boolean NOT NULL DEFAULT 1,
-    livre_id INT NOT NULL,
+    livre_id INT Unsigned NOT NULL,
     CONSTRAINT fk_livre_id FOREIGN KEY (livre_id) REFERENCES livre(id),
-    lecteur_id INT NOT NULL,
+    lecteur_id INT Unsigned NOT NULL,
     CONSTRAINT fk_lecteur_id FOREIGN KEY (lecteur_id) REFERENCES lecteur(id)
 );
 INSERT INTO auteur (nom,prenom,date_naissance,nationalite)
