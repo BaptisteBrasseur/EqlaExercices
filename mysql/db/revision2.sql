@@ -9,6 +9,18 @@ CREATE TABLE auteur
     date_naissance date NOT NULL,
     nationalite varchar(20) NOT NULL
 );
+CREATE TABLE theme
+(
+    id int Unsigned NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    libelle varchar(20) NOT NULL
+);
+CREATE TABLE lecteur
+(
+    id int Unsigned NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nom varchar(30) NOT NULL,
+    prenom varchar(30) NOT NULL,
+    date_naissance date NOT NULL
+);
 CREATE TABLE livre
 (
     id int Unsigned NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -25,18 +37,6 @@ CREATE TABLE livre
     lecteur_id INT Unsigned NOT NULL,
     CONSTRAINT fk_lecteur_id FOREIGN KEY (lecteur_id) REFERENCES lecteur(id)
 );
-CREATE TABLE theme
-(
-    id int Unsigned NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    libelle varchar(20) NOT NULL
-);
-CREATE TABLE lecteur
-(
-    id int Unsigned NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    nom varchar(30) NOT NULL,
-    prenom varchar(30) NOT NULL,
-    date_naissance date NOT NULL
-);
 CREATE TABLE emprunt
 (
     id int Unsigned NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -44,9 +44,7 @@ CREATE TABLE emprunt
     date_fin date NOT NULL,
     is_rendu boolean NOT NULL DEFAULT 1,
     livre_id INT Unsigned NOT NULL,
-    CONSTRAINT fk_livre_id FOREIGN KEY (livre_id) REFERENCES livre(id),
-    lecteur_id INT Unsigned NOT NULL,
-    CONSTRAINT fk_lecteur_id FOREIGN KEY (lecteur_id) REFERENCES lecteur(id)
+    CONSTRAINT fk_livre_id FOREIGN KEY (livre_id) REFERENCES livre(id)
 );
 INSERT INTO auteur (nom,prenom,date_naissance,nationalite)
 VALUES ('Leblanc','Maurice','1888-05-23','Belge');
